@@ -1,0 +1,91 @@
+
+ Git的三个工作区域
+	
+　	◆ 工作区（Working Directory）
+
+　	◆ 暂存区（Stage）
+
+　	◆ 版本库（Repository）
+
+
+----------------------------------------------------------------
+
+1.Git安装（略）
+
+	[$ git config --global user.name "Your Name"]
+
+	[$ git config --global user.email "email@example.com"]
+
+
+2.在Git创建库→notebook
+
+
+3.找一个的盘→创建一个空目录→并打开Git窗口
+
+	[git clone https://github.com/MX919/notebook]  //库的地址
+
+	[$ cd notebook]  //空目录出现notebook文件夹
+
+	[$ git init]     //初始化
+
+	[$ pwd]          //显示当前的路径
+
+
+5.在notebook文件夹编辑git.txt文件
+
+	[$ git add git.txt]    //将文件添加到仓库
+
+	[$ git commit -m "Git notes"]  //将文件提交到仓库
+
+
+6.上传
+
+	[$ git push] //OK  了  吗？  然-而-并-没-有
+
+
+7.修改
+
+	[$ git add git1.0.txt] //将修改的文件添加到仓库
+
+	---以下三部每次 增、删、改 都必须执行---
+
+	[$ git commit -m "git notes"] //提交到仓库
+	
+	[$ git push]	 //推送到服务器 
+	
+	[$ git pull]	 //更新
+	
+
+	
+------------------------------------------------------
+
+  命令  
+ 
+	[$ git add .]         //添加所有修改(新)的
+
+	[$ git clone xxxx]    //拉取远程的Repo到本地
+	
+	[$ git rm 我的文件]   //删除文件
+
+	[$ git rm -r 文件夹/] //删除文件夹
+	
+	[$ git log]           //查看日志
+
+	[$ git status]        //查看状态
+
+  分支
+
+	[$ git branch]         //查看分支
+	
+	[$ git branch fenzhi]  //创建分支
+
+	[$ git checkout fenzhi]//切换分支
+
+	[$ git merge ali]      //合并分支
+
+  远程	
+	
+	[$ git remote -v]      //查看远程服务器
+		
+	
+	
