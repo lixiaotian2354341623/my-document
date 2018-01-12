@@ -1,0 +1,84 @@
+/*公司简介*/
+*{padding: 0; margin: 0;}
+.clearfix:after{clear: both;
+                content: "";
+               display: block;
+                overflow: hidden} 
+
+ 	.company{max-width: 80%;margin:50px auto;}
+   	.company_left{float: left;width: 40%;}
+   	.company_right{float: right;width: 50%;}
+   	.company_o{height: 24px;width: 100%;}
+	.company_o span{line-height: 24px;}
+	.company_o #on{font-size: 26px;}
+	.company_o #one{font-size: 16px;color: #666666;}
+	.company_on{line-height: 28px;}
+	.company_on p{font-size:16px ;color: #666666;}
+	.company_tow{width: 100%;margin: 60px auto;}
+	.company_to img{width: 100%;}
+	.company_tow{position: relative;} 
+	.company_onw{position: absolute;top: 14%;left: 55%;}
+	.company_onw{font-size: 16px;color: white;}
+	.company_onw #oo{font-size: 26px;}
+	/*联系我们*/
+			.map {
+			max-width: 80%;
+			margin: 0 auto;
+		}
+		
+		.map_left {
+			width: 50%;
+			float: left;
+		}
+		
+		.map_right {
+			width: 50%;
+			float: right;
+		}
+		
+		.map_o {
+			height: 24px;
+			width: 100%;
+		}
+		
+		.map_o span {
+			line-height: 24px;
+		}
+		
+		.map_end {
+			width: 100%;
+		}
+		
+		.map_o img {
+			max-width: 2%;
+			height: 60%;
+		}
+		
+		.map_o #on {
+			font-size: 26px;
+			margin-left: 10px;
+		}
+		
+		.map_o #one {
+			font-size: 16px;
+			color: #666666;
+		}
+		
+		.map_t {
+			margin-top: 50px;
+			width: 100%;
+		}
+		
+		.map_t p {
+			color: #666666;
+		}
+		
+		.map_right img {
+			width: 100%;
+		}
+		
+		.map_end span {
+			color: #666666;
+			font-size: 14px;
+		}
+		.map_end{margin-top: 20px;}

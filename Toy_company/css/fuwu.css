@@ -1,0 +1,13 @@
+/*服务范围*/
+           *{padding: 0;margin: 0;}
+			.clearfix:after { content:""; display:block; clear:both; height:0; }
+			li{list-style: none;}
+			.fuwu{position:relative;width: 100%;background: url(../img/gf.jpg) repeat-y;background-size: 100%;margin: 0 auto;padding-top: 30px;}
+			.fuwu_tit{max-width:1200px;line-height: 30px;margin:0 auto 30px auto;}
+			.fuwu_tit img{position: absolute;top: 30px;}
+			.fuwu_tit p:nth-of-type(1){color: #FFFFFF;display: inline-block;padding-left: 40px;font-weight: bold;font-size: 16px;}
+			.fuwu_tit p:nth-of-type(2){color: #FFFFFF;display: inline-block;padding-left: 5px;}
+			.fuwu_img{max-width:1200px;margin: 0 auto;}
+			.fuwu_img li{float: left;width: 25%;text-align: center;}
+			.fuwu_img li>img{width: 40%;}
+			.fuwu_img li p{padding:30px 0;color: #FFFFFF;margin: 10px 0;font-size: 16px;}

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after { content:""; display:block; clear:both; height:0; }
+.content2{
+    width: 80%;
+    margin: 0 auto;
+    padding:44px 0 0;
+}
+.content2  .left{
+    width: 49%;
+    height: 100px;
+    float: left;
+}
+.content2  .left img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.content2  .left p:nth-of-type(1){
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+    color:rgb(43,43,43);
+    margin-right: 20px;
+
+}
+.content2  .left p:nth-of-type(2){
+    display: inline-block;
+    vertical-align: bottom;
+    color:#666560;
+    /*font-size: 26px;*/
+}
+.content2  .right{
+    width: 49%;
+    height: 100px;
+    float: right!important;
+    text-align: right;
+
+
+}
+
+.content2  .right button{
+    border: none;
+    outline: none;
+    width: 109px;
+    height: 40px;
+    background: white;
+    list-style-type: none;
+    border: 1px solid rgb(0, 175, 80);
+    color: rgb(0, 175, 80);
+    margin-right: 70px;
+    cursor:pointer;
+}
+.l-con2{
+    width: 88%;
+    height: auto;
+    margin: 0 auto;
+    padding:0 0 44px;
+}
+.l-con2 dl{
+    width: 32%;
+    margin: 0 0.6%;
+    float: left;
+    text-align: center;
+    color: #666666;
+    overflow: hidden; background-size: cover;
+
+    -webkit-margin-before:0;
+    -webkit-margin-after:0;
+}
+.l-con2 dl a{
+    border: 10px solid white;
+
+
+}
+.l-con2 dl a{
+    border: 10px solid white;
+
+
+}
+.l-con2 dl dt{
+    width: 385px;
+    height: auto;
+
+    /*border: 10px solid white;*/
+    overflow: hidden;
+
+
+}
+.l-con2 dl a {
+    width: 371.966px;
+    height: 395px;
+    margin: 0;
+
+}
+.l-con2 dl a img
+{
+    /*display: inline;*/
+    /*border: 0;*/
+    /*vertical-align: top;*/
+    /*position: absolute;*/
+    max-width:120%;
+
+
+
+}
+.l-con2 dl a img:hover{
+    margin-left: -10px;
+    /*position: relative;*/
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+    z-index:1;
+}
+.l-con2 dl dd{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px!important;
+}
+.l-con2 dl dd p{
+    width: 100%;
+    height: auto;
+    text-align: center!important;
+    /*margin-left:80px;*/
+}

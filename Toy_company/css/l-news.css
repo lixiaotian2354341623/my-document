@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.clearfix:after { content:""; display:block; clear:both; height:0; }
+.l-wrap{
+    width: 85%;
+    margin: 0 auto;
+
+}
+.l-wrap .text2{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+
+
+}
+.l-wrap .text2 p{
+   /*width: auto;*/
+    font-size: 24px;
+    width: 95%;
+
+    margin: 15px auto;
+
+}
+.l-wrap .text{
+    height: 200px;
+    font-size: 14px;
+    color: #676767;
+    border-top:1px solid darkgrey;
+
+}
+.l-wrap .text p{
+    width: 95%;
+    line-height: 24px;
+    margin: 15px auto;
+    /*border-bottom:1px solid darkgrey;*/
+    /*box-sizing: border-box;*/
+}
+.l-wrap .text3{
+    width: 100%;
+    margin: 20px auto 0 auto;
+    border-top:1px solid darkgrey;
+
+
+}
+.l-wrap .text3 .left{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+.l-wrap .text3 .left .top{
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+}
+.l-wrap .text3 .left .top span{
+    font-size: 13px;
+    color: #666666;
+    margin-right: 20px;
+}
+.l-wrap .text3 .left .top a{
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+}
+.l-wrap .text3 .right{
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+.l-wrap .text3 .right .top{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+}
+.l-wrap .text3 .right  .top span{
+    font-size: 13px;
+    color: #666666;
+    margin-right: 20px;
+}
+.l-wrap .text3 .right .bottom{
+    width: 100%;
+    height: 50px;
+
+}
+.l-wrap .text3 .right .bottom span{
+    width: 60%;
+    height: 50px;
+    font-size: 14px;
+    color: #666666;
+    /*line-height: 50px;*/
+    margin-top: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+.l-wrap .text3 .right .bottom span ul{
+
+    width: 30%;
+    height: 50px;
+    float: right;
+}
+.l-wrap .text3 .right .bottom  ul li{
+   width: 33px;
+    height: 33px;
+    float: left;
+    margin: 0 10px;
+    list-style: none;
+}
+.l-wrap .text3 .right .bottom ul li img{
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    vertical-align: bottom;
+}

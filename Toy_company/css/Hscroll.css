@@ -1,0 +1,21 @@
+/* 回到top样式 */
+.ToTop{
+    	width:42px;
+    	height:42px;
+    	background:rgb(0, 175, 80) url(../img/top-01.png);
+    	position: fixed;
+    	top: 50%;
+    	right: 20px;
+		z-index: 999;
+		display: none;
+		opacity: 1;
+    }
+.ToTop:hover{
+    	background:rgb(0, 175, 80) url(../img/top-hover.png);
+    	opacity: 0.5;
+    	cursor:pointer;
+    }
+.ToTop a{
+    width:42px;
+    height:42px;
+}
