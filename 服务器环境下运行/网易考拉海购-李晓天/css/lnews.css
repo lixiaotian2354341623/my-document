@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{background: #f6f6f6;}
+.lnews{
+    width: 81%;
+    height: auto;
+    margin: 40px auto;
+
+}
+.lnews h2{
+    width: 100%;
+    color: #999999;
+    font-size: 14px;
+    font-weight:normal ;
+}
+.lnews h2 .big {
+ color: #333333!important;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.lnews h2 span{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.lnews h2 a{
+    height: 30px;
+   font-size: 14px;
+    font-family: "Microsoft Yahei";
+    color: #333333;
+
+    float: right;
+   margin-top: 6px;
+}
+.lnews h2 a:hover{
+    text-decoration: underline;
+}
+.goods{
+    width: 100%;
+    margin: 40px auto;
+}
+.goods ul{
+    list-style: none;
+    width: 1081.88px;
+    height: 461px;
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+.goods ul li{
+    width: 179px;
+    height: 230px;
+     float: left;
+    border: 1px solid #f0f0f0;
+    border-width: 0 0 1px 1px;
+
+}
+.goods ul li p{
+    width: 157px;
+    height: 18px;
+    margin: 4px auto;
+    line-height: 18px;
+    text-align: center;
+     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333333;
+
+
+}
+.goods ul li .imgclass img{
+    vertical-align: middle;
+    display: inline-block;
+}
+.goods ul li a{
+    font-size: 12px;
+}
+.goods ul li a img:hover{
+    opacity: 0.8;
+}
+.goods ul li:first-child .price{
+    color: #e31436;
+    font-size: 18px;
+    margin-top: -20px;
+}
+.goods ul li:first-child  img
+{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.goods ul li:first-child .imgclass{
+    width: 180px;
+    height: 90px;
+    text-align: center;
+    margin: 0;
+    margin-top: 24px;
+}
+.goods ul li:first-child p,.goods ul li:first-child span{
+
+    margin:5px auto;
+}
+.goods ul li:first-child .lowprice:before{
+    width: 16px;
+    height: 16px;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background: red;
+
+}
+.goods ul li:nth-of-type(2){
+    overflow: hidden;
+}
+.goods ul li:nth-of-type(2) img{
+     width: 178px;
+    margin-left: -11px;
+}
+.goods ul li:nth-of-type(2) img:hover{
+    transition: all 1s;
+    margin-left: -24px;
+}
+.goods ul li a:hover{
+    text-decoration:black underline;
+
+}
+.goods ul li .imgclass{
+display: block;
+margin: 12px;
+width: 157px;
+height: 157px;}
+.goods ul li .price{
+    color: red;
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.goods a{
+    display: block;
+}
+.goods ul li .lowprice{
+    color: #999999;
+text-decoration: line-through;
+    font-size: 10px;
+}

@@ -1,0 +1,40 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.foct{width: 100%; }
+.foct .con 	{max-width: 1200px;margin: 0 auto;border-bottom: 1px solid darkgrey;padding-bottom: 30px;}
+.foct .con .lis5{overflow: hidden;}
+.foct .con .lis5 li{float: left;width: 25%;overflow: hidden; }
+.foct .con .lis5 li>div{float: left;}
+.foct .con .lis5 li .lft{margin-top: 27px;margin-right: 5px;}
+.foct .con .lis5 li .rit {text-align: left;margin-top: 20px;}
+.foct .con .lis5 li .rit h3{font-size: 0.2rem;font-weight: 800;line-height:200%;}
+.foct .con .lis5 li .rit p{font-size: 0.14rem;}
+
+.fodt{width: 100%;}
+.fodt .f_ot {max-width: 1200px;margin: 40px auto;}
+.fodt .f_ot .lis6{overflow: hidden;}
+.fodt .f_ot .lis6>li{border-right: 1px solid darkgray;float: left;width: 11%;padding-left: px;}
+.fodt .f_ot .lis6>li h3{font-size: 0.2rem;text-align: center;padding-bottom: 10px;}
+.fodt .f_ot .lis6>li p{font-size: 0.12rem;text-align: center;line-height: 180%;}
+.fodt .f_ot .lis6>li:nth-child(2) p:nth-child(3){padding-bottom:40px;}
+.fodt .f_ot .lis6>li:nth-child(1){width: 20%;padding-left:20px;}
+.fodt .f_ot .lis6>li:last-child{border-right:0px}
+.fodt .f_ot .lis6>li:nth-child(6){border-right:0px}
+.fodt .f_ot .lis6 .guanzhu{overflow: hidden;padding-bottom:10%;}
+.fodt .f_ot .lis6 .guanzhu li{float: left;padding-right: 5px;padding-top:10px;}
+.fodt .f_ot .lis6 .guanzhu li img{width: 100%;}
+.fodt .f_ot .lis6 .guanzhu li:nth-child(1){margin-top:20px;}
+
+
+.foet{width: 100%;background: #333;}
+.foet .f_at{max-width: 1200px;margin:  0 auto;text-align: center;line-height: 200%;padding-top: 30px ;color: white;}
+.foet .f_at a{color: #FFFDEF;font-size: 0.13rem;}
+.foet .f_at .zzd{margin: 0 20px;}
+.foet .f_at .bq{margin: 0 20px;}
+.foet .f_at .pto{padding: 10px; }
+.foet .f_at .pto img{padding-left: 20px;}

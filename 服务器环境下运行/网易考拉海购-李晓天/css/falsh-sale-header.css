@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clearfix:after{
+    overflow:hidden;
+    clear:both;
+    display:block;
+    content:"";
+}
+body{position: relative;}
+.mheader{
+    min-width: 1092px;
+    height: 80px;
+    margin-bottom: 50px;
+    padding-top:20px;
+    text-align: center;
+    color: white;
+    background: #b92137 url("../images/107daea6377443ff9c40bdece3d2e22e.jpg") no-repeat center;
+}
+.mheader .iconfont{
+    display: inline-block;
+    margin-right: 10px;
+    width: 41px;
+    height: 38px;
+    vertical-align: -8px;
+    background: url(//mm.bst.126.net/images/index/dailyLimit/dailyLimit.png?bef97a4…) no-repeat -138px 0;
+}
+.mheader .bigtext{
+
+    font-size: 36px;
+    font-weight: bold;
+    color:white;
+}
+.mheader .smalltext{
+    font-weight: normal;
+    font-size: 14px;
+}
+.mheader #biggtext{
+    display: inline-block;
+    color:white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.mnav{
+    width: 100%;
+    min-width: 1092px;
+    height: 50px;
+    background: #333333;
+    position: absolute;
+    margin-top: -50px;
+    left: 0;
+
+}
+.mnav .navp{
+    width: 81%;
+    min-width: 1092px;
+    height: 50px;
+    margin: 0 auto;
+}
+.mnav .navp a{
+    box-sizing: border-box;
+   display: block;
+   float: left;
+   height: 50px;
+    line-height: 18px;
+    vertical-align: middle;
+    text-align: center;
+    color: #aaaaaa;
+    margin-left: -1px;
+    text-decoration: none;
+    text-align: center;
+    width: 16%;
+    border-left: 1px solid #454545;
+    border-right: 1px solid #454545;
+}
+.mnav .navp a p{
+    font-size: 16px;
+    margin-top: 8px;
+}
+.mnav .navp span{
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+}
+.mnav .navp a:hover{
+    color: #ffffff;
+    /*border-bottom: 2px inset red ;*/
+    border-left: 1px solid #454545;
+    border-right: 1px solid #454545;
+}
+
+.goodslists{
+    width:1092px;
+
+    /*!*top:0;*!position: absolute;*/
+    /*left: 0;*/
+    margin: 60px auto 0px auto;
+
+}
+.goodslists .goodswrap{
+    /*width: 99%;*/
+    /*position: static;*/
+    /*position: absolute;*/
+    margin: 0 auto;
+}
+
+.goodslists .listwrap {
+    float: left;
+    position: relative;
+    width: 262px;
+    margin: 0 11px 12px 0;
+    background: #ffffff;
+    font-size: 12px;
+    color: #333333;
+
+}
+.goodslists .listwrap a{
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+.goodslists .listwrap img{
+    width: 262px;
+    height: 262px;
+}
+.goodslists .listwrap span{
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    color: #e61f31;
+    left: 10px;
+    bottom:0px;
+    border: 1px solid #e61f31;
+}
+.goodslists .imgdes{
+    padding: 5px 10px 7px;
+}
+.goodslists .imgdes h3{
+   height: 40px;
+    font-size: 14px;
+    margin: 4px 0;
+    line-height: 20px;
+    overflow: hidden;
+}
+.goodslists .imgdes h3 .link{
+    display: block;
+    text-overflow: ellipsis;
+   white-space: nowrap;
+    overflow: hidden;
+    color: #333333;
+}
+.goodslists .imgdes h3 .link:hover
+{
+    text-decoration: #333333 underline;
+}
+.goodslists .imgdes h3 .titlink{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #aaaaaa;
+    font-weight: normal;
+
+}
+.goodslists .imgdes h3 .titlink:hover{
+    text-decoration: #aaaaaa underline;
+}
+.goodslists .imgdes  dl{
+    color: #de2634;
+  margin-top: 7px;
+}
+.goodslists .imgdes dl dd{
+    display: inline-block;
+}
+.goodslists .imgdes  dl .barwrap{
+
+    position: relative;
+    width: 78px;
+    height: 8px;
+    border: 1px solid #f3c7c7;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.goodslists .imgdes  dl .barwrap .bar{
+    width: 84%;
+    height: 100%;
+
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffd2c5;
+}
+.goodslists .prices{
+    height: 40px;
+
+
+
+}
+.goodslists .prices p{
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    background: #de2634;
+    padding-left: 10px;
+    float: left;
+}
+.goodslists .prices p b{
+  display: inline-block;
+    font-size: 24px;
+    margin: 0 2px;
+}
+.goodslists .prices p .lowprice{
+    display:inline-block!important;
+    position: inherit;
+    border: none;
+    color: #ffffff;
+    text-decoration: line-through;
+}
+.goodslists .prices .action{
+    border: 1px solid #de2634;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #de2634;
+}
+.brandwrap{
+    float: left;
+    width: 534px;
+    height: 429px;
+    margin: 0 10px 10px 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.brandwrap a{
+    display: block;
+    width: 100%;
+    height: 392px;
+    border-bottom: 1px solid #ddd;
+}
+.brandwrap a img
+{
+    width: 100%;
+    height: 168px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.brandwrap .mgoods-wrap{
+    width: 160px;
+    margin: 10px 0 14px 14px;
+    float: left;
+
+}
+.brandwrap .mgoods-wrap img{
+    width: 160px;
+    height: 160px;
+
+}
+.brandwrap .mgoods-wrap .uprice{
+    width: 160px;
+    color: #de2634;
+    text-align: center;
+}
+.brandwrap .mgoods-wrap .uprice span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.brandwrap .mgoods-wrap .uprice .lowprice{
+    font-size: 14px;
+    font-weight: normal;
+    color: #aaaaaa;
+    text-decoration: line-through;
+}
+.brandwrap .time {
+width: 100%;
+    color: #e31539;
+    background-color: #fef6eb;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+.next{
+    width: 100%;
+    height: 36px;
+    text-align: center;
+   margin: 20px 0px 40px 0px;
+    padding-bottom: 60px;
+}
+.next a{
+    display: inline-block;
+    width: 145px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 20px;
+    font-size: 16px;
+    background: #333333;
+    color: #ffffff;
+}
+.next a img{
+    display: inline-block;
+    vertical-align: middle;
+     margin-top: -1px;
+    padding: 0 5px 0 5px;
+}
+.next a:hover{
+    color: #ffffff;
+}
+.mtop{
+    position: relative;
+    /*width: 100px;*/
+    /*height: 50px;*/
+    right: 0;
+    background: red;
+
+}
+.mtop .click{
+    display: block;
+    position: absolute;
+    /*right: 40px;*/
+    /*bottom: 60px;*/
+   width: 16px;
+
+    background: #ffffff;
+    padding: 15px 8px;
+    border: 1px solid #ddd;
+    line-height: normal;
+    text-align: center;
+    font-size: 12px;
+    left: 50%;
+    margin-left: 565px;
+    bottom: 100px;
+    text-decoration: none;
+
+
+}
+.mtop .click:hover{
+    color: black;
+}

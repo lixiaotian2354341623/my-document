@@ -1,0 +1,14 @@
+function dot(){
+		var foct=document.querySelector(".foct")
+		var fodt=document.querySelector(".fodt")
+		var foet=document.querySelector(".foet")
+		var str1='<div class="con"><ul class="lis5"><li><div class="lft"><img src="images/index/tubiaoku_03.png"/></div><div class="rit"><h3>100%正品</h3><p>正品保障 假一赔十</p></div></li><li><div class="lft"><img src="images/index/tubiaoku_05.png"/></div><div class="rit"><h3>低价保障</h3><p>缩减中间环节 确保低价</p></div></li><li><div class="lft"><img src="images/index/tubiaoku_07.png"/></div><div class="rit"><h3>30天无忧退货</h3><p>国内退货 售后无忧</p></div></li><li><div class="lft"><img src="images/index/tubiaoku_09.png"/></div><div class="rit"><h3>满88包邮</h3><p>部分特殊商品除外</p></div></li></ul></div>'
+		
+		var str2='<div class="f_ot"><ul class="lis6"><li><a href="#"><img src="images/index/Logo.png"/></a><ul class="guanzhu"><li>关注我们：</li><li><a href="www.baidu.com"><img src="images/index/tubiaoku_15.png"/></a></li><li><a href="#"><img src="images/index/tubiaoku_17.png"/></a></li><li><a href="#"><img src="images/index/tubiaoku_19.png"/></a></li></ul></li><li><h3><a href="#">考拉保障</a></h3><p><a href="#">假一赔十</a></p><p><a href="#">廉政监督</a></p></li><li><h3><a href="#">新手指南</a></h3><p><a href="#">购物流程</a></p><p><a href="#">支付方式</a></p><p><a href="#">通关税费</a></p><p><a href="#">常见问题</a></p></li><li><h3><a href="#">售后服务</a></h3><p><a href="#">退货政策</a></p><p><a href="#">退货流程</a></p><p><a href="#">退款说明</a></p><p><a href="#">联系客服</a></p></li><li><h3><a href="#">物流配送</a></h3><p><a href="#">配送方式</a></p><p><a href="#">配送服务</a></p><p><a href="#">运费标准</a></p><p><a href="#">物流跟踪</a></p></li><li><h3><a href="#">关于我们</a></h3><p><a href="#">联系我们</a></p><p><a href="#">招商合作</a></p><p><a href="#">销售联盟</a></p><p><a href="#">CEO邮箱</a></p></li><li><a href="#"><img src="images/index/erweima.jpg"/></a></li></ul></div>'
+		
+		var str3='<div class="f_at"><a href="#">About   NeteASE</a>- <a href="#">公司介绍</a>  -  <a href="#">联系方法</a>  -  <a href="#">友情链接</a>  -  <a href="#">招聘信息</a>  -   <a href="#">客户服务</a>  -  <a href="#">隐私政策</a>  -  <a href="#">网络营销</a>  -  <a href="#">网站地图</a>  -  <a href="#">网易考拉海购</a><br /><span>网络文化经营许可证：浙网文[2016]0155-055号</span><span class="zzd">增值电信业务经营许可证：浙B2-20160288</span><span>自营经营者信息</span><br /><a href="#"><img src="images/index/f28aa8ee818a42bf832341f605eccefb.png"/></a><a href="#"><span class="mead1">浙公网安备      33010802002216</span></a><span class="bq">网易公司版权所有©1997-2018</span><span><a href="#">互联网药品服务资格证书编号  （浙）  -2017-0027</a></span><div class="pto"><a href="#"><img width="9%" src="images/index/86998579-754f-4f2c-b800-5dae6404a1f6.png"/></a><span><a href="#"><img width="9%" src="images/index/d720d83b55a04b6f932ea845c673c5bf.png"/></a></span><a href="#"><img width="3%" src="images/index/d071c0de-5360-4dcb-915a-f9f9bb62a9d5.gif"/></a></div></div>'
+		foct.innerHTML=str1
+		fodt.innerHTML=str2
+		foet.innerHTML=str3
+		}
+		dot()

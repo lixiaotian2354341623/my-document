@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        html{
+            height:100%;
+
+        }
+        body{
+            /*height: 1000px;*/
+            height: 100%;
+            background:url(background.jpg) center center no-repeat;
+            background-size:cover;
+            overflow:hidden;
+        }
+    </style>
+</head>
+<body>
+</body>
+<script>
+    function build() {
+
+
+        //获得浏览器宽高
+        var sWid = document.documentElement.offsetWidth || document.body.offsetWidth;
+        var sHei = document.documentElement.offsetHeight || document.body.offsetHeight;
+        var bBody = document.querySelector("body");
+        //创建雪花
+
+        //随机制造
+        function randomSnow(start, end) {
+            return Math.floor(Math.random() * (end - start + 1)) + start;
+        }
+
+
+        //创造雪花
+        function CreatSnow(par, sWid, sHei) {
+            this.par = par;
+            this.sWid = sWid;
+            this.sHei = sHei;
+            this.change();
+//            console.log(this);
+        }
+
+        CreatSnow.prototype.change = function () {
+            this.allTime = randomSnow(5, 10);//过渡时间
+            this.wid = randomSnow(10, 25);//图片随机宽度
+            this.hei=randomSnow(40,120);
+            this.imgL = this.sWid - this.wid;//图片最大left偏移
+           this.heiL=this.sHei-this.hei;
+            this.ele = document.createElement("img");
+            this.ele.src = "雪花.png";
+            this.ele.style.cssText= "position:absolute;left:"+randomSnow(0,this.imgL)+"px;top:"+(-this.hei)+"px;width:"+this.wid+"px;-webkit-transition: all "+this.allTime+"s;-moz-transition: all "+this.allTime+"s;-ms-transition: all "+this.allTime+"s;-o-transition: all "+this.allTime+"s;transition: all "+this.allTime+"px";
+            bBody.append(this.ele);
+            this.fall();
+
+        }
+
+   CreatSnow.prototype.fall = function () {
+
+            var that = this;
+
+            (function (that) {
+//                console.log(that)
+                setTimeout(function () {
+                    that.ele.style.top = that.sHei + "px";
+
+                }, 1000); //等待1s后使img距离top为窗口高度
+                that.time = setInterval(function () {
+                    var nowTop = parseInt(that.ele.style.top);
+//                    console.log(nowTop)
+//                    console.log(that.sHei)
+                    if (nowTop >= that.sHei) {
+                        clearInterval(that.time);
+                        //移除雪花
+                        that.par.removeChild(that.ele);
+                    }
+                }, 5000)  //每5s判断nowtop值是否大于窗口高度
+            })(that);
+        }
+        //定时器创建对象
+        setInterval(function () {
+            for (var i = 0; i < randomSnow(5, 1000); i++) {
+                var newFlake = new CreatSnow(bBody, sWid, sHei);//每500毫秒创建995个实例
+            }
+        }, 500)
+
+    }
+
+
+
+    build();
+
+</script>
+</html>

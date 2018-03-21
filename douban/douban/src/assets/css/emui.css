@@ -1,0 +1,10 @@
+
+.el-dialog .el-dialog__header .el-dialog__title{
+  font-size: 15px;
+  color: #999;
+  text-align: left;
+
+}
+.el-dialog .el-button+.el-button{
+  margin: 0.1rem  0.2rem 0 0;}
+

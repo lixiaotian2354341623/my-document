@@ -1,0 +1,80 @@
+.sever-tit{
+    width: 100%;
+    height: 4rem;
+   /*height: 400px;*/
+    background: url("../images/bG2.jpg") no-repeat ;
+    background-size: cover;
+    position: relative;
+}
+.sever-tit .tit-wrap{
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    background: #2d3b3f;
+    opacity: 0.2;
+    top:0;
+    left: 0;
+}
+.sever-tit  .tit-con{
+    width: 98%;
+    height: 2rem;
+    position: absolute;
+    color: #f1501a;
+
+}
+.sever-tit .tit-con .tit-text{
+
+    font-size: .36rem;
+    /*font-weight: bold;*/
+    text-align: center;
+     height: 1rem;
+    line-height: 1rem;
+    padding: 1.5rem 0;
+
+
+
+}
+
+
+
+.sever-list {
+    width: 100%;
+    background-color: rgba(247,247,247,0.7);
+}.sever-list .list-wrap{
+    max-width: 10.24rem;
+    margin: 0 auto;
+    padding: .5rem 0;
+
+ }
+.sever-list .list-wrap  .liwrap{
+     width: 10.24rem;
+     overflow: hidden;
+     height: 2.73rem;
+
+}
+.sever-list .list-wrap ul{
+    color: #ef4f19;
+    font-size: .2rem;
+    max-width: 10.24rem;
+     height: 5.79rem;
+    overflow: hidden;
+}
+.list-wrap ul li{
+     width: 49%;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: .2rem 0;
+}
+ul li .list-text{
+    text-align: center;
+    padding: .2rem 0;
+}
+ul li  a{
+    display: block;
+    padding: 0 .6rem;
+    font-size: .14rem;
+    color: #808080;
+    text-align: left;
+}

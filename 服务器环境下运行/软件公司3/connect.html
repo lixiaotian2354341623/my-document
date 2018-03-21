@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<div class="big clearfix">
+    <div class="wrap">
+        <!--<header id="head">-->
+        <!--<div class="minwrap">-->
+        <!--<div class="logo">-->
+        <!--<a href="#"><img src="images/logo2.png" alt=""></a>-->
+        <!--</div>-->
+        <!--<div class="nav">-->
+        <!--<ul class="myul">-->
+        <!--&lt;!&ndash;<li><a href="#">首页<i class="under"></i></a></li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li><a href="#">服务<i class="under"></i></a></li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li><a href="#">定价<i class="under"></i></a></li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li><a href="#">新闻<i class="under"></i></a></li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li><a href="#">关于<i class="under"></i></a></li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li><a href="#">联系<i class="under"></i></a></li>&ndash;&gt;-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--<div class="phone">-->
+
+        <!--<img src="images/phone.png" alt="">-->
+        <!--<span style="font-family:Georgia;">4001-600-130</span>-->
+        <!--</div>-->
+
+        <!--</div>-->
+        <!--</header>-->
+        <!--</div>-->
+    </div>
+</body>
+
+<script src="js/link.js"></script>
+<script src="js/jq.js"></script>
+<!--<script src="js/lazyimgs.js"></script>-->
+<script>
+    function GetQueryString(name)
+    {
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return  unescape(r[2]); return null;
+    }
+
+    // 调用方法
+    var id=GetQueryString("id");
+    //    var sum="<ul>";
+    var sum='<div class="wrap"><header id="head"><div class="minwrap">';
+    var sum2='<div class="nav"><ul class="myul">';
+    var sum3=        "</div></header></div>";
+    $.get("json/lis.json",function (msg) {
+        console.log(msg)
+        var  str2='<div class="logo">' +
+            '<a href="#"><img src='+msg.logo+' alt=""></a>' +
+            '</div>';
+        var  str3=  '<div class="phone">' +
+            '<img src='+msg.logo2+' alt="">' +
+            '<span style="font-family:Georgia;">'+msg.text+'</span>' +
+            '</div>';
+        $.each(msg.con,function (i,v) {
+            console.log(i+"====================",v);
+            var  str='<li><a href="'+v.path+'id='+v.id+'">'+v.tit+'<i class="under"></i></a></li>';
+            sum2+=str;
+        })
+        sum2+="</ul></div>";
+        sum+=str2+sum2+str3+sum3;
+
+        $(".big").html(sum);
+    });
+
+
+
+
+</script>
+</html>

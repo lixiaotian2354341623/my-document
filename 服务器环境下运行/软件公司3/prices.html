@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/price.css">
+
+</head>
+<body>
+<div class="big clearfix">
+    <div class="wrap">
+        <header id="head">
+        <div class="minwrap">
+        <div class="logo">
+        <a href="#"><img src="images/logo2.png" alt=""></a>
+        </div>
+        <div class="nav">
+        <ul class="myul">
+        <li><a href="#">首页<i class="under"></i></a></li>
+        <li><a href="#">服务<i class="under"></i></a></li>
+        <li><a href="#">定价<i class="under"></i></a></li>
+        <li><a href="#">新闻<i class="under"></i></a></li>
+        <li><a href="#">关于<i class="under"></i></a></li>
+        <li><a href="#">联系<i class="under"></i></a></li>
+        </ul>
+        </div>
+        <div class="phone">
+
+        <img src="images/phone.png" alt="">
+        <span style="font-family:Georgia;">4001-600-130</span>
+        </div>
+
+        </div>
+        </header>
+        </div>
+    </div>
+<div class="price-head-img">
+    <div class="price-wrap"></div>
+        <div class="price-con">
+         <p class="price-text">网络时代的<i>工作态度</i></p>
+            <p class="price-s">让工作更高效，更简单，提供企业沟通、协作、办公、管理所需的一切方式</p>
+            <div class="price-btn-wrap clearfix">
+                <div class="btn-w">
+                    <div class="price-head-t">
+                        <p class="person">个人版</p>
+                        <p class="p-s">
+                            私人订制你的项目
+                        </p>
+                    </div>
+                    <div class="price-head-b">
+                             <p class="doll">$999/年</p>
+
+                        <ul class="con3">
+                            <li>私人</li>
+                            <li>保密</li>
+                        </ul>
+
+                        <a href="#">
+                            免费试用版本
+                        </a>
+                        <p class="p-b-s">或立即购买</p>
+
+                    </div>
+                </div>
+                <div class="btn-w "style="margin-top: -.44rem">
+                    <div class="price-head-t" style="background: #ef4f19">
+                        <p class="person">大众版</p>
+                        <p class="p-s">  更加安全保证你的项目
+                        </p>
+                    </div>
+                    <div class="price-head-b">
+                        <p class="doll">$1999/年</p>
+
+                        <ul class="con3">
+                            <li>公开共享</li>
+                            <li>互相交流</li>
+                            <li>共同进步</li>
+                        </ul>
+
+                        <a href="#" class="per">
+                            免费试用版本
+                        </a>
+                        <p class="p-b-s" style="">或立即购买</p>
+
+                    </div>
+                </div>
+                <div class="btn-w">
+                    <div class="price-head-t">
+                        <p class="person">企业版</p>
+                        <p class="p-s">
+                            系统化你的项目
+                        </p>
+                    </div>
+                    <div class="price-head-b">
+                        <p class="doll">$2999/年</p>
+
+                        <ul class="con3">
+                            <li>系统性</li>
+                            <li>高效性</li>
+                        </ul>
+
+                        <a href="#">
+                            免费试用版本
+                        </a>
+                        <p class="p-b-s">或立即购买</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+</div>
+<div class="foot">
+    <div class="fot-wrap clearfix">
+        <ul class="list">
+            <li>关于我们</li>
+            <li>qq</li>
+            <li>电话</li>
+            <li>微信</li>
+            <li>支付</li>
+
+        </ul>
+        <ul class="list">
+            <li>我们的服务</li>
+            <li>自主建站平台</li>
+            <li>IT外包项目</li>
+            <li>定制软件开发</li>
+            <li>可视化内容编辑</li>
+
+        </ul>
+        <ul class="list">
+            <li>新品发布新闻</li>
+            <li>Created especially for you
+                October 1, 2</li>
+            <li>Awesome theme with endless possibilities. August 28, 2013</li>
+            <
+
+        </ul>
+        <ul class="list">
+            <li>
+                联系方式</li>
+            <li>info@softwore.com</li>
+            <li>+86 188 1234 1234</li>
+            <li>Little Lomsdale St.</li>
+
+
+        </ul>
+
+    </div>
+    <div class="fot-b" style="text-align: center; font-size: .13rem;color: #808080;padding: .8rem;">
+        <p> 版权所有 ©2017   地址：苏州市工业园区大道金鸡湖大道99号     苏ICP备0000000000号</p>
+    </div>
+</div>
+<a href="javascript:;" class="link">
+    <img src="images/top.png" alt="" width="16" height="16">
+</a>
+</body>
+
+<script src="js/link.js"></script>
+<script src="js/jq.js"></script>
+<script src="js/top-link.js"></script>
+<!--<script src="js/lazyimgs.js"></script>-->
+<script>
+    function GetQueryString(name)
+    {
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return  unescape(r[2]); return null;
+    }
+
+    // 调用方法
+    var id=GetQueryString("id");
+    //    var sum="<ul>";
+    var sum='<div class="wrap"><header id="head"><div class="minwrap">';
+    var sum2='<div class="nav"><ul class="myul">';
+    var sum3=        "</div></header></div>";
+    $.get("json/lis.json",function (msg) {
+        console.log(msg)
+        var  str2='<div class="logo">' +
+            '<a href="#"><img src='+msg.logo+' alt=""></a>' +
+            '</div>';
+        var  str3=  '<div class="phone">' +
+            '<img src='+msg.logo2+' alt="">' +
+            '<span style="font-family:Georgia;">'+msg.text+'</span>' +
+            '</div>';
+        $.each(msg.con,function (i,v) {
+            console.log(i+"====================",v);
+            var  str='<li><a href="'+v.path+'id='+v.id+'">'+v.tit+'<i class="under"></i></a></li>';
+            sum2+=str;
+        })
+        sum2+="</ul></div>";
+        sum+=str2+sum2+str3+sum3;
+
+        $(".big").html(sum);
+    });
+
+
+
+
+</script>
+</html>

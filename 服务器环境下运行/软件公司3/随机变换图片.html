@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            list-style: none;
+        }
+        .wrap{
+            width:1200px;margin: 50px auto;
+        }
+        .wrap ul{
+
+            width: 100%;
+            height: 560px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .wrap ul li{
+            width: 280px;
+            height: 280px;
+            float: left;
+            margin: 10px;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="wrap">
+       <ul>
+           <li><div><img src="img/coat1.jpg" alt=""></div></li>
+           <li><div><img src="img/coat2.jpg" alt=""></div></li>
+           <li><div><img src="img/coat3.jpg" alt=""></div></li>
+           <li><div><img src="img/coat4.jpg" alt=""></div></li>
+           <li><div><img src="img/coat5.jpg" alt=""></div></li>
+           <li><div><img src="img/coat6.jpg" alt=""></div></li>
+           <li><div><img src="img/shoes1.jpg" alt=""></div></li>
+           <li><div><img src="img/shoes2.jpg" alt=""></div></li>
+       </ul>
+   </div>
+</body>
+<!--<script src="js/ajax3.js"></script>-->
+<script>
+   var wrap=document.querySelector(".wrap");
+    var lis=wrap.getElementsByTagName("li");
+    console.log(lis);
+    //去随机数
+    function rands(v) {
+        var rands=Math.floor(Math.random()*v);
+        return rands;
+
+
+        console.log(v);
+    }
+    console.log(rands);
+   //    rands();
+   //去重
+    function checkArrIn(rand,array) {
+        if (array.indexOf(rand)>-1){
+            return true;
+        }
+        return false;
+    }
+   function fn(n,value) {
+       var arr = [];
+       var isNum = !isNaN(Number(n));//判断n是不是一个数字，包含字符串类型的数字
+       // var isRandOk = (n >= min && n <= max && n <= (max - min)) ? true : false;//判断n的取值是否符合要求
+       if (n) {
+           for (var i = 0; i < n; i++) {
+               var rand = rands(value);
+               if (checkArrIn(rand, arr)) {
+                   i--
+               } else {
+                   arr.push(rand)
+               }
+           }
+       }
+       return arr;
+   }
+
+   //获取随机的格子标签
+   function randdiv(){
+       var ran = fn(4,9)
+       var arry = [];
+       for (var i = 0; i < 4; i++){
+           arry.push(lis[ran[i]].getElementsByTagName('div')[0]);
+           console.log(arry)
+       }
+       return arry;
+
+   }
+   //获取随机颜色值：
+
+     var  timer = window.setInterval(function(){
+           // 随机格子
+           var box = randdiv();
+           //随机颜色值
+           // var color = fn(3,255);
+           // console.log(box)
+           for (var i = 0; i < lis.length; i++) {
+               lis[i].getElementsByTagName('div')[0].style.visibility = "hidden";
+           }
+           // console.log(color)
+           for (var i = 0; i < 4; i++) {
+//               var color = fn(4);
+               box[i].style.visibility = "visible";
+           }
+       },800);
+
+
+</script>
+</html>

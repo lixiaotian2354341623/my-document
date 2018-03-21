@@ -1,0 +1,11 @@
+{"logo": "images/logo2.png",
+  "logo2":"images/phone.png",
+  "text":"4001-600-130",
+  "con":[
+    {"tit":"首页","id":"6","path":"index.html?"},
+    {"tit":"服务","id":"10","path":"sever.html?","logo3":"images/logo.jpg"},
+    {"tit":"定价","id":"9","path":"prices.html?"},
+    {"tit":"新闻","id":"12","path":"news.html?"},
+    {"tit":"关于","id":"11","path":"aboutus.html?"},
+    {"tit":"联系","id":"13","path":"connect.html?"}]
+    }

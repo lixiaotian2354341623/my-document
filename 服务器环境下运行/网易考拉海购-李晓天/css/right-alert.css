@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+    overflow:hidden;
+    clear:both;
+    display:block;
+    content:""
+}
+body{height: 3000px;}
+@font-face {font-family: 'iconfont';
+    src: url('../icon/iconfont.eot');
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../icon/iconfont.woff') format('woff'),
+    url('../icon/iconfont.ttf') format('truetype'),
+    url('../icon/iconfont.svg#iconfont') format('svg');
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 421606 */
+    src: url('//at.alicdn.com/t/font_421606_rvfu1rmz4dtsatt9.eot');
+    src: url('//at.alicdn.com/t/font_421606_rvfu1rmz4dtsatt9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_421606_rvfu1rmz4dtsatt9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_421606_rvfu1rmz4dtsatt9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_421606_rvfu1rmz4dtsatt9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: red;
+}
+/*.iconfont:hover{*/
+   /*background: red;*/
+/*}*/
+.alert{
+
+    position: absolute;
+    right:50px;
+    top:600px;
+
+}
+
+.alert ul{
+    width: 58px;
+    height: 213px;
+    list-style: none;
+    border: 1px solid #eaeaea;
+
+}
+
+/*.alert ul li a:hover{*/
+    /*color: #eaeaea;*/
+/*}*/
+.alert ul li a{
+     display: block;
+     width: 58px;
+     height: 48px;
+     padding: 10px 0 0;
+     border-bottom: 1px solid #eaeaea;
+    /*border-top: 1px solid #eaeaea;*/
+     background: #fff;
+     font-size: 12px;
+     cursor: pointer;
+     text-align: center;
+     text-decoration: none;
+     color: #333333;
+ }
+.alert ul li a:hover{
+    background: #eaeaea;
+    color: red;
+}
+.alert ul li:last-child a:hover{
+    background: darkgrey;
+    color: white;
+}
+/*.alert ul li a .iconfont{*/
+    /*color: #999;*/
+    /*font-size: 17px;*/
+/*}*/
+.alert ul li .scrtop{
+    padding-top: 3px;
+    height: 33px;
+    border: 0;
+    line-height: 14px;
+    font-size: 10px;
+    background: #999;
+    color: #fffdef;
+}
+.alert ul li .app:hover .qrcode{
+    display: block;
+
+}
+.alert ul li  .qrcode {
+    display: none;
+    position: absolute;
+    left: -110px;
+    top: 100px;
+    width: 105px;
+    height: 142px;
+    background: url("../images/qrcode-app.png") no-repeat 0 0;
+}
+.alert ul li .text {
+    position: absolute;
+    left: -100px;
+    top: 10px;
+    width: 66px;
+    display: none;
+    border-radius: 4px;
+    background: #fff;
+
+    text-align: center;
+    color: #333;
+    border: solid 1px #ededee;
+    padding: 10px;
+}
+.alert ul li .arrow{
+    top: 10px;
+    position: absolute;
+}.alert ul li .arrow .arr{
+    display: none;
+     right: -18px;
+     border-color: transparent transparent transparent #e4e4e4;
+     position: absolute;
+     right:18px;
+     border-width: 9px;
+     border-style: dashed dashed dashed solid;
+     width: 0;
+     height: 0;
+     font-size: 0;
+     line-height: 0 !important;
+     /*background: white;*/
+
+ }
+.alert ul li:hover .text,.alert ul li:hover .arr{
+    display: block;
+}
+
+
+.right-alert
+{
+    width: auto;
+    height: auto;
+    background: #ffffff;
+    overflow: hidden;
+    /*border: 1px solid #eaeaea;*/
+
+}
+.right-alert ul li a:hover{
+     background: #f6f6f6;
+     color: red;
+}
+.right-alert .topimg {
+    display:block;
+    width: 99px;
+    height: 49px;
+}
+.right-alert .lastimg{
+    display:block;
+    width: 99px;
+    height: 128px;
+}
+.right-alert .topimg img,.right-alert .lastimg img{
+     width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+     border: 0;
+}
+.right-alert .one{
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+}
+.right-alert .one li{
+    list-style: none;
+}
+.right-alert .one li a{
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
+}
+.right-alert .two{
+    border: 1px solid #eaeaea;
+    border-top: none;
+}
+.right-alert .two li{
+    list-style: none;
+}
+.right-alert .two li a{
+    display: block;
+    height:28px;
+    line-height:28px;
+    text-decoration: none;
+    font-size: 12px;
+
+    color: #333333;
+    /*border-bottom: 1px solid #eaeaea;*/
+    text-align: center;
+}
+
+

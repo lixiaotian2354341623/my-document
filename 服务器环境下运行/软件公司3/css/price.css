@@ -1,0 +1,124 @@
+.price-head-img{
+    width: 100%;
+   height: 8.38rem;
+    background: url("../images/sidbar2.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.price-head-img .price-wrap{
+    position: absolute;
+    width: 100%;
+    height:8.38rem ;
+    overflow: hidden;
+    top:0;
+    left: 0;
+    background-color: rgba(96,96,96,0.7);
+}
+.price-head-img  .price-con{
+    position: absolute;
+    width: 98%;
+    height: 2rem;
+    left: 1%;
+    padding-top: .6rem;
+    top:1.5rem;
+
+}
+.price-head-img  .price-con .price-text{
+    text-align: center;
+    font-size: .36rem;
+    color: #FFFFFF;
+}
+.price-head-img  .price-con i{
+    color: #ef4f19;
+}
+.price-head-img  .price-con .price-s{
+    font-size: .2rem;
+    text-align: center;
+    padding-top: .1rem;
+    color: #F7F7F7;
+}
+.price-con .price-btn-wrap{
+  max-width: 10.24rem;
+    margin: .9rem auto 0 auto;
+
+
+
+}
+.price-con .price-btn-wrap .btn-w{
+
+    width:31%;
+    background: whitesmoke;
+    text-align: center;
+    float: left;
+    margin: 0 1%;
+
+}
+.price-btn-wrap .btn-w .price-head-t{
+    background:  #c4c4c4;
+    color: whitesmoke;
+
+}
+.btn-w .price-head-t .person{
+    font-size: .24rem;
+
+    padding: .4rem 0 .2rem 0;
+
+
+}
+.btn-w .price-head-t .p-s{
+ padding-bottom: .2rem;
+}
+.btn-w .price-head-b .doll{
+    padding: .2rem 0;
+    font-size: .32rem;
+}
+.btn-w .price-head-b .con3{
+    width: 100%;
+
+
+}
+.btn-w .price-head-b .con3 li{
+    font-size: .16rem;
+    padding: .12rem 0;
+}
+.btn-w .price-head-b   a{
+    width: 2.3rem;
+    height: .46rem;
+    line-height: .46rem;
+
+    box-sizing: border-box;
+    display: block;
+    border: 0.01rem solid #ef4f19;
+    border-radius: .06rem;
+    background: transparent;
+    color: #ef4f19;
+    margin: .35rem auto 0rem auto;
+ transition: all 0.7s;
+}
+.btn-w .price-head-b  .p-b-s{
+    color: #ef4f19;
+    font-size: .14rem;
+    padding: .1rem 0 .4rem 0;
+}
+.btn-w .price-head-b   a:hover{
+          background: #ef4f19;
+          color: whitesmoke;
+}
+.btn-w .price-head-b   .per{
+    width: 2.3rem;
+    height: .46rem;
+    line-height: .46rem;
+
+    box-sizing: border-box;
+    display: block;
+    border: 0.01rem solid #ef4f19;
+    border-radius: .06rem;
+    background: #ef4f19;
+    color: #F7F7F7;
+    margin: .35rem auto 0rem auto;
+    transition: all 0.7s;
+}
+.btn-w .price-head-b   .per:hover{
+    background: transparent;
+    color: #ef4f19;
+}
