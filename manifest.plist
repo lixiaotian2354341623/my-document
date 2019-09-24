@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.pep.com</string>
+				<string>com.PEP.biaori</string>
 				<key>bundle-version</key>
 				<string>1.0.0</string>
 				<key>kind</key>
