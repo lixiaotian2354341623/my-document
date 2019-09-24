@@ -17,19 +17,19 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://github.com/xxx/raw/master/image.57x57.png</string>
+					<string></string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://github.com/xxx/raw/master/image.512x512.png</string>
+					<string></string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.xxx.xxx</string>
+				<string>com.pep.com</string>
 				<key>bundle-version</key>
 				<string>1.0.0</string>
 				<key>kind</key>
