@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.2.2",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "swiper": "^4.1.6",
     "vue": "^2.5.16",
     "vue-axios": "^2.0.2",
